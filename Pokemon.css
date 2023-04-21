@@ -11,3 +11,82 @@
   background-clip: padding-box;
   padding: 10px;
   }
+.Feuer {
+  border: 1px solid #ccc; /* Umrandung der Box */
+  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
+  width: 200px; /* Breite der Box */
+  float: right;
+  text-align: center; /* Zentrieren des Inhalts */
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.Feuer img {
+  max-width: 80%; /* Maximale Breite des Bildes innerhalb der Box */
+  height: auto; /* Verhindern von Verzerrungen des Bildes */
+  margin-bottom: 10px; /* Abstand zwischen Bild und Name */
+}
+
+.Feuer h2 {
+  font-size: 18px; /* Größe des Namens */
+  margin: 0; /* Entfernen von Standardabständen */
+}
+.Wasser {
+  border: 1px solid #ccc; /* Umrandung der Box */
+  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
+  width: 200px; /* Breite der Box */
+  text-align: center; /* Zentrieren des Inhalts */
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.Wasser img {
+  max-width: 80%; /* Maximale Breite des Bildes innerhalb der Box */
+  height: auto; /* Verhindern von Verzerrungen des Bildes */
+  margin-bottom: 10px; /* Abstand zwischen Bild und Name */
+}
+
+.Wasser h2 {
+  font-size: 18px; /* Größe des Namens */
+  margin: 0; /* Entfernen von Standardabständen */
+}
+
+.Elektro {
+  border: 1px solid #ccc; /* Umrandung der Box */
+  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
+  width: 200px; /* Breite der Box */
+  text-align: center; /* Zentrieren des Inhalts */
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.Elektro img {
+  max-width: 80%; /* Maximale Breite des Bildes innerhalb der Box */
+  height: auto; /* Verhindern von Verzerrungen des Bildes */
+  margin-bottom: 10px; /* Abstand zwischen Bild und Name */
+}
+
+.Elektro  h2 {
+  font-size: 18px; /* Größe des Namens */
+  margin: 0; /* Entfernen von Standardabständen */
+}
+.Pflanze {
+  border: 1px solid #ccc; /* Umrandung der Box */
+  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
+  width: 200px; /* Breite der Box */
+  text-align: center; /* Zentrieren des Inhalts */
+  float: right;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.Pflanze img {
+  max-width: 80%; /* Maximale Breite des Bildes innerhalb der Box */
+  height: auto; /* Verhindern von Verzerrungen des Bildes */
+  margin-bottom: 10px; /* Abstand zwischen Bild und Name */
+}
+
+.Pflanze    h2 {
+  font-size: 18px; /* Größe des Namens */
+  margin: 0; /* Entfernen von Standardabständen */
+}
