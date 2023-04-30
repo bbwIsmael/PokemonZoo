@@ -1,16 +1,35 @@
+body{
+  background-image: url(./383741.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header{
+  color: white;
+}
 .y{
   text-align: center;
-  border: #118bee;
   border-radius: 5px;
   border-style: solid;
   border-width: 15px;
   margin-left: 300px;
   margin-right: 300px;
-  margin-top: -150px;
+  margin-top: 10px;
   background-color: antiquewhite;
+  opacity: 30%;
   background-clip: padding-box;
   padding: 10px;
   }
+.main-container{
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #555555;
+  opacity: 50%;
+  margin-top: 50%;
+}
 .Feuer {
   border: 1px solid #ccc; /* Umrandung der Box */
   padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
@@ -19,6 +38,8 @@
   text-align: center; /* Zentrieren des Inhalts */
   margin-top: 50px;
   margin-left: 50px;
+  margin-right: 50px;
+
 }
 
 .Feuer img {
@@ -78,6 +99,8 @@
   float: right;
   margin-top: 50px;
   margin-left: 50px;
+  margin-right: 50px;
+
 }
 
 .Pflanze img {
@@ -89,4 +112,7 @@
 .Pflanze    h2 {
   font-size: 18px; /* Größe des Namens */
   margin: 0; /* Entfernen von Standardabständen */
+}
+.Link_container {
+  text-align: center;
 }
