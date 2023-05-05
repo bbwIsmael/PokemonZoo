@@ -1,0 +1,79 @@
+body{
+  background-image: url(./istockphoto-1227082257-170667a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header{
+  color: white;
+}
+.P{
+  margin-top: 10%;
+  text-align: center;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 15px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 10px;
+  background-color: green;
+  opacity: 30%;
+  background-clip: padding-box;
+  padding: 10px;
+}
+.main_Pflanze{
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.Bisaflor {
+  border: 1px solid #ccc; /* Umrandung der Box */
+  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
+  width: 200px; /* Breite der Box */
+  float: right;
+  text-align: center; /* Zentrieren des Inhalts */
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.Chelast{
+  border: 1px solid #ccc; /* Umrandung der Box */
+  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
+  width: 200px; /* Breite der Box */
+  float: right;
+  text-align: center; /* Zentrieren des Inhalts */
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.Silvarro{
+  border: 1px solid #ccc; /* Umrandung der Box */
+  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
+  width: 200px; /* Breite der Box */
+  float: right;
+  text-align: center; /* Zentrieren des Inhalts */
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.Kokowei{
+  border: 1px solid #ccc; /* Umrandung der Box */
+  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
+  width: 200px; /* Breite der Box */
+  float: right;
+  text-align: center; /* Zentrieren des Inhalts */
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.Pflanze-Beschreibung{
+  display: flex;
+  justify-content: center;
+  color: white;
+  opacity: 60%;
+  background-color: #555555;
+  margin-top: 15%;
+
+}
