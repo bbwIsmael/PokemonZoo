@@ -1,0 +1,19 @@
+body{
+  background-color: aqua;
+}
+
+.über_uns{
+  text-align: center;
+  margin-bottom: 300px;
+}
+
+.öffnungszeiten {
+  padding: 45px;
+  flex-direction: column;
+}
+table{
+  background-color: white;
+}
+
+
+
