@@ -6,6 +6,21 @@ body{
 }
 header{
   color: white;
+  opacity: 0.8;
+}
+nav{
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10pX;
+}
+nav a:hover {
+  background-color: #555;
+  color: #fff;
+  transition: background-color0 .3s, color 0.3s;
 }
 .F{
   margin-top: 10%;
@@ -76,4 +91,9 @@ header{
   background-color: #555555;
   margin-top: 15%;
 
+}
+footer a:hover {
+  background-color: #555;
+  color: #fff;
+  transition: background-color0 .3s, color 0.3s;
 }

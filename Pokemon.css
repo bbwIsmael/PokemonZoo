@@ -4,107 +4,160 @@ body{
   background-size: cover;
   background-attachment: fixed;
 }
+
 header{
   color: white;
+  opacity: 0.8;
 }
+
+nav{
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+  color: #fff;
+  transition: background-color0 .3s, color 0.3s;
+}
+
 .y{
   text-align: center;
   border-radius: 5px;
   border-style: solid;
   border-width: 15px;
-  margin-left: 300px;
-  margin-right: 300px;
   margin-top: 10px;
   background-color: antiquewhite;
   opacity: 30%;
   background-clip: padding-box;
   padding: 10px;
-  }
-.main-container{
-  flex-wrap: wrap;
-  flex-direction: row;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container{
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   color: white;
   background-color: #555555;
   opacity: 50%;
   margin-top: 50%;
 }
+
 .Feuer {
-  border: 1px solid #ccc; /* Umrandung der Box */
-  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
-  width: 200px; /* Breite der Box */
-  float: right;
-  text-align: center; /* Zentrieren des Inhalts */
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
   margin-top: 50px;
   margin-left: 50px;
   margin-right: 50px;
-
 }
 
 .Feuer img {
-  max-width: 80%; /* Maximale Breite des Bildes innerhalb der Box */
-  height: auto; /* Verhindern von Verzerrungen des Bildes */
-  margin-bottom: 10px; /* Abstand zwischen Bild und Name */
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .Feuer h2 {
-  font-size: 18px; /* Größe des Namens */
-  margin: 0; /* Entfernen von Standardabständen */
+  font-size: 18px;
+  margin: 0;
 }
+
 .Wasser {
-  border: 1px solid #ccc; /* Umrandung der Box */
-  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
-  width: 200px; /* Breite der Box */
-  text-align: center; /* Zentrieren des Inhalts */
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
   margin-top: 50px;
   margin-left: 50px;
 }
+
 .Wasser img {
-  max-width: 80%; /* Maximale Breite des Bildes innerhalb der Box */
-  height: auto; /* Verhindern von Verzerrungen des Bildes */
-  margin-bottom: 10px; /* Abstand zwischen Bild und Name */
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 10px;
 }
+
 .Wasser h2 {
-  font-size: 18px; /* Größe des Namens */
-  margin: 0; /* Entfernen von Standardabständen */
+  font-size: 18px;
+  margin: 0;
 }
+
 .Elektro {
-  border: 1px solid #ccc; /* Umrandung der Box */
-  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
-  width: 200px; /* Breite der Box */
-  text-align: center; /* Zentrieren des Inhalts */
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
   margin-top: 50px;
   margin-left: 50px;
 }
+
 .Elektro img {
-  max-width: 80%; /* Maximale Breite des Bildes innerhalb der Box */
-  height: auto; /* Verhindern von Verzerrungen des Bildes */
-  margin-bottom: 10px; /* Abstand zwischen Bild und Name */
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 10px;
 }
+
 .Elektro  h2 {
-  font-size: 18px; /* Größe des Namens */
-  margin: 0; /* Entfernen von Standardabständen */
+  font-size: 18px;
+  margin: 0;
 }
+
 .Pflanze {
-  border: 1px solid #ccc; /* Umrandung der Box */
-  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
-  width: 200px; /* Breite der Box */
-  text-align: center; /* Zentrieren des Inhalts */
-  float: right;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
   margin-top: 50px;
   margin-left: 50px;
   margin-right: 50px;
 }
+
 .Pflanze img {
-  max-width: 80%; /* Maximale Breite des Bildes innerhalb der Box */
-  height: auto; /* Verhindern von Verzerrungen des Bildes */
-  margin-bottom: 10px; /* Abstand zwischen Bild und Name */
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 10px;
 }
-.Pflanze    h2 {
-  font-size: 18px; /* Größe des Namens */
-  margin: 0; /* Entfernen von Standardabständen */
+
+.Pflanze h2 {
+  font-size: 18px;
+  margin: 0;
 }
+
 .Link_container {
   text-align: center;
 }
+
+footer a:hover {
+  background-color: #555;
+  color: #fff;
+  transition: background-color0 .3s, color 0.3s;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    margin-top: 100%;
+  }
+
+  .Feuer, .Wasser, .Elektro, .Pflanze {
+    margin: 10px;
+  }
+
+  .Feuer, .Wasser {
+    width: 100%;
+  }
+
+  .Elektro, .Pflanze {
+    width: calc(50% - 20px);
+  }
+}
+

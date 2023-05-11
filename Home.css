@@ -1,45 +1,62 @@
-
-.x{
-  text-align: center;
-  border: #118bee;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 15px;
-  margin-left: 130px;
-  margin-right: 650px;
-  margin-top: -150px;
-  background-color: antiquewhite;
-  background-clip: padding-box;
-  padding: 10px;
+header{
+  color: white;
+  opacity: 0.8;
 }
-body{
+
+body {
+  display: flex;
+  flex-direction: column;
   background-image: url(./basic_pokemons__colors_by_yoshiyaki_d9i3dav-fullview.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
+
+.x {
+  text-align: center;
+  margin-bottom: 100px;
+  border: #118bee;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 15px;
+  background-color: antiquewhite;
+  background-clip: padding-box;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .Beschreibung {
-  transform: scale(1);
-  margin-top: 80px;
-  margin-left: 130px;
-  margin-right: 650px;
   color: white;
   border: white;
   border-style: solid;
   background-clip: padding-box;
   padding: 10px;
-}
-.nav {
-  align-items: center;
   display: flex;
   justify-content: center;
-  font-size: 22px;
-  padding-top: 0px;
-  margin-bottom: 45px;
-  background-color: white;
+  align-items: center;
 }
 
+nav{
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
 
-
+}
+nav a:hover {
+  background-color: #555;
+  color: #fff;
+  transition: background-color0 .3s, color 0.3s;
+}
+footer a:hover {
+  background-color: #555;
+  color: #fff;
+  transition: background-color0 .3s, color 0.3s;
+}
 
 
