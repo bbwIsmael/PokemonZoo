@@ -1,5 +1,5 @@
 body{
-  background-image: url(./383741.jpg);
+  background-image: url(/images/pexels-erik-mclean-9661252.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -25,121 +25,183 @@ nav a:hover {
   color: #fff;
   transition: background-color0 .3s, color 0.3s;
 }
-
-.y{
-  text-align: center;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 15px;
-  margin-top: 10px;
-  background-color: antiquewhite;
-  opacity: 30%;
-  background-clip: padding-box;
-  padding: 10px;
+main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #f2f2f2;
+  padding: 2rem;
+  max-width: 100%;
+  opacity: 80%;
 }
 
-.main-container{
+.titel {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+.typen {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  color: white;
-  background-color: #555555;
-  opacity: 50%;
-  margin-top: 50%;
+  align-items: center;
+  margin-top: 2rem;
 }
 
-.Feuer {
-  border: 1px solid #ccc;
-  padding: 10px;
-  width: 200px;
-  text-align: center;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.Feuer img {
-  max-width: 80%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.Feuer h2 {
-  font-size: 18px;
-  margin: 0;
-}
-
-.Wasser {
-  border: 1px solid #ccc;
-  padding: 10px;
-  width: 200px;
-  text-align: center;
-  margin-top: 50px;
-  margin-left: 50px;
-}
-
-.Wasser img {
-  max-width: 80%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.Wasser h2 {
-  font-size: 18px;
-  margin: 0;
-}
-
-.Elektro {
-  border: 1px solid #ccc;
-  padding: 10px;
-  width: 200px;
-  text-align: center;
-  margin-top: 50px;
-  margin-left: 50px;
+.Elektro, .Wasser, .Feuer, .Pflanze {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem;
 }
 
 .Elektro img {
-  max-width: 80%;
-  height: auto;
-  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
 }
 
-.Elektro  h2 {
-  font-size: 18px;
-  margin: 0;
+.Wasser img {
+  width: 100px;
+  height: 100px;
 }
 
-.Pflanze {
-  border: 1px solid #ccc;
-  padding: 10px;
-  width: 200px;
-  text-align: center;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+.Feuer img {
+  width: 100px;
+  height: 100px;
 }
 
 .Pflanze img {
-  max-width: 80%;
-  height: auto;
-  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
 }
 
-.Pflanze h2 {
-  font-size: 18px;
-  margin: 0;
+h2 {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  color: #333;
 }
+
+
+/*main{*/
+/*  flex-flow: column;*/
+/*  flex-wrap: wrap;*/
+/*}*/
+
+/*.titel{*/
+/*  text-align: center;*/
+/*  border-radius: 5px;*/
+/*  border-style: solid;*/
+/*  border-width: 15px;*/
+/*  margin-top: 10px;*/
+/*  background-color: antiquewhite;*/
+/*  background-clip: padding-box;*/
+/*  padding: 10px;*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
+
+/*.typen{*/
+
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*  justify-content: center;*/
+/*  color: white;*/
+/*  background-color: #555555;*/
+/*  margin-bottom: 50%;*/
+/*}*/
+
+/*.Feuer {*/
+/*  border: 1px solid #ccc;*/
+/*  padding: 10px;*/
+/*  width: 200px;*/
+/*  text-align: center;*/
+/*  margin-top: 50px;*/
+/*  margin-left: 50px;*/
+/*  margin-right: 50px;*/
+/*}*/
+
+/*.Feuer img {*/
+/*  max-width: 80%;*/
+/*  height: auto;*/
+/*  margin-bottom: 10px;*/
+/*}*/
+
+/*.Feuer h2 {*/
+/*  font-size: 18px;*/
+/*  margin: 0;*/
+/*}*/
+
+/*.Wasser {*/
+/*  border: 1px solid #ccc;*/
+/*  padding: 10px;*/
+/*  width: 200px;*/
+/*  text-align: center;*/
+/*  margin-top: 50px;*/
+/*  margin-left: 50px;*/
+/*}*/
+
+/*.Wasser img {*/
+/*  max-width: 80%;*/
+/*  height: auto;*/
+/*  margin-bottom: 10px;*/
+/*}*/
+
+/*.Wasser h2 {*/
+/*  font-size: 18px;*/
+/*  margin: 0;*/
+/*}*/
+
+/*.Elektro {*/
+/*  border: 1px solid #ccc;*/
+/*  padding: 10px;*/
+/*  width: 200px;*/
+/*  text-align: center;*/
+/*  margin-top: 50px;*/
+/*  margin-left: 50px;*/
+/*}*/
+
+/*.Elektro img {*/
+/*  max-width: 80%;*/
+/*  height: auto;*/
+/*  margin-bottom: 10px;*/
+/*}*/
+
+/*.Elektro  h2 {*/
+/*  font-size: 18px;*/
+/*  margin: 0;*/
+/*}*/
+
+/*.Pflanze {*/
+/*  border: 1px solid #ccc;*/
+/*  padding: 10px;*/
+/*  width: 200px;*/
+/*  text-align: center;*/
+/*  margin-top: 50px;*/
+/*  margin-left: 50px;*/
+/*  margin-right: 50px;*/
+/*}*/
+
+/*.Pflanze img {*/
+/*  max-width: 80%;*/
+/*  height: auto;*/
+/*  margin-bottom: 10px;*/
+/*}*/
+
+/*.Pflanze h2 {*/
+/*  font-size: 18px;*/
+/*  margin: 0;*/
+/*}*/
 
 .Link_container {
   text-align: center;
 }
 
 footer a:hover {
-  background-color: #555;
-  color: #fff;
+  background-color: #333333;
+  color: #ffffff;
   transition: background-color0 .3s, color 0.3s;
 }
 

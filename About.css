@@ -1,10 +1,9 @@
 body{
-  background-image: url(./pokemon_wallpaper___poke_ball_theme_by_0trinima0_dd2zouo-pre.jpg);
+  background-image: url(/images/pexels-abhishek-rana-4188296.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-
 nav{
   color: #fff;
   font-family: Arial, sans-serif;
@@ -25,35 +24,34 @@ nav a:hover {
   transition: background-color0 .3s, color 0.3s;
 }
 
-.über_uns{
-  color: antiquewhite;
-  text-align: center;
-  margin-bottom: 300px;
-  margin-top: -100px;
+main {
+  margin-top: 35%;
+  background-color: white;
+  max-width: 200%;
+  opacity: 80%;
 }
 
-.öffnungszeiten{
+
+.über_uns {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  width: 100%;
+}
+
+.öffnungszeiten {
   display: flex;
 }
 
-.Team{
-  font-family: "Arial", sans-serif;
-  margin-bottom: 50px;
-  margin-top: -70px;
-  font-size: 18px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-  color: #333333;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-  text-decoration: underline;
-  text-align: center;
-  transition: color 0.3s ease-in-out;
-  padding: 45px;
-  flex-direction: column;
-  display: flex;
+.team {
+  font-size: 1.2rem;
+  ine-height: 1.5;
+  color: #666;
+  margin-top: 2rem;
+  width: 100%;
 }
 
-.öffnungszeiten table{
+.öffnungszeiten table {
   padding: 45px;
   flex-direction: column;
   display: flex;
@@ -61,7 +59,7 @@ nav a:hover {
   width: 50%;
 }
 
-table{
+table {
   background-color: white;
 }
 

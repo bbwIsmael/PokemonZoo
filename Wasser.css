@@ -1,5 +1,5 @@
 body{
-  background-image: url(./istockphoto-1227082257-170667a.jpg);
+  background-image: url(/images/istockphoto-1227082257-170667a.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -21,33 +21,48 @@ header{
   background-clip: padding-box;
   padding: 10px;
 }
-.main_Wasser{
-  flex-wrap: wrap;
-  flex-direction: row;
+.pokemon-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  color: white;
 }
-.Garados {
-  border: 1px solid #ccc; /* Umrandung der Box */
-  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
-  width: 200px; /* Breite der Box */
-  float: right;
-  text-align: center; /* Zentrieren des Inhalts */
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+
+.pokemon-card {
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 10px;
+  text-align: center;
 }
-.Turtok{
-  border: 1px solid #ccc; /* Umrandung der Box */
-  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
-  width: 200px; /* Breite der Box */
-  float: right;
-  text-align: center; /* Zentrieren des Inhalts */
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+.pokemon-card {
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  flex-basis: calc(25% - 20px);
+  background-color: #fff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 }
+
+.pokemon-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.pokemon-card h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.pokemon-card img {
+  max-height: 150px;
+  margin-bottom: 10px;
+}
+
 header{
   color: white;
   opacity: 0.8;
@@ -66,35 +81,32 @@ nav a:hover {
   color: #fff;
   transition: background-color0 .3s, color 0.3s;
 }
-.Lapras{
-  border: 1px solid #ccc; /* Umrandung der Box */
-  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
-  width: 200px; /* Breite der Box */
-  float: right;
-  text-align: center; /* Zentrieren des Inhalts */
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+.Wasser-Beschreibung {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
 }
-.Quajustu{
-  border: 1px solid #ccc; /* Umrandung der Box */
-  padding: 10px; /* Abstand zwischen Inhalt und Umrandung */
-  width: 200px; /* Breite der Box */
-  float: right;
-  text-align: center; /* Zentrieren des Inhalts */
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.Wasser-Beschreibung{
-  display: flex;
-  justify-content: center;
-  color: white;
-  opacity: 60%;
-  background-color: #555555;
-  margin-top: 15%;
 
+.Wasser-Beschreibung h3 {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 10px;
 }
+
+.Wasser-Beschreibung p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/*.Wasser-Beschreibung{*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  color: white;*/
+/*  opacity: 60%;*/
+/*  background-color: #555555;*/
+/*  margin-top: 15%;*/
+/*}*/
 footer a:hover {
   background-color: #555;
   color: #fff;

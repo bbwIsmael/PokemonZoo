@@ -1,41 +1,62 @@
 header{
   color: white;
   opacity: 0.8;
-}
+  }
 
 body {
   display: flex;
   flex-direction: column;
-  background-image: url(./basic_pokemons__colors_by_yoshiyaki_d9i3dav-fullview.jpg);
+  background-image: url(/images/pexels-vincent-ma-janssen-1310847.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-
-.x {
-  text-align: center;
-  margin-bottom: 100px;
-  border: #118bee;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 15px;
-  background-color: antiquewhite;
-  background-clip: padding-box;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+:root {
+  --primary-color: #ffcc00;
+  --secondary-color: #333;
+  --font-family: 'Roboto', sans-serif;
 }
 
-.Beschreibung {
-  color: white;
-  border: white;
-  border-style: solid;
-  background-clip: padding-box;
-  padding: 10px;
+#pokemon-zoo {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  margin-top: 40%;
+}
+
+.x {
+  background-color: #118bee;
+  color: #fff;
+  flex-basis: 100%;
+  opacity: 70%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.x h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+
+/* Apply styles to description section */
+.beschreibung {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  opacity: 70%;
+  line-height: 1.5;
+  padding: 2rem;
+  flex-basis: 100%;
+}
+
+.beschreibung p:first-of-type {
+  margin-top: 0;
+}
+
+.beschreibung p:last-of-type {
+  margin-bottom: 0;
 }
 
 nav{
@@ -58,5 +79,7 @@ footer a:hover {
   color: #fff;
   transition: background-color0 .3s, color 0.3s;
 }
-
+footer{
+  padding: 0px;
+}
 
