@@ -99,16 +99,13 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-/*.Wasser-Beschreibung{*/
-/*  display: flex;*/
-/*  justify-content: center;*/
-/*  color: white;*/
-/*  opacity: 60%;*/
-/*  background-color: #555555;*/
-/*  margin-top: 15%;*/
-/*}*/
+
 footer a:hover {
   background-color: #555;
   color: #fff;
   transition: background-color0 .3s, color 0.3s;
+}
+
+footer{
+  color: white;
 }

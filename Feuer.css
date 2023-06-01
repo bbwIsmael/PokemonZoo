@@ -125,18 +125,29 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-
-.Feuer-Beschreibung{
-  display: flex;
-  justify-content: center;
-  color: white;
-  opacity: 60%;
-  background-color: #555555;
-  margin-top: 15%;
-
+.Feuer-Beschreibung {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
 }
+
+.Feuer-Beschreibung h3 {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.Feuer-Beschreibung p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
 footer a:hover {
   background-color: #555;
   color: #fff;
   transition: background-color0 .3s, color 0.3s;
+}
+footer{
+  color: white;
 }

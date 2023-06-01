@@ -77,64 +77,31 @@ nav a:hover {
   max-height: 150px;
   margin-bottom: 10px;
 }
-/*.main_Pflanze{*/
-/*  flex-wrap: wrap;*/
-/*  flex-direction: row;*/
-/*  display: flex;*/
-/*  justify-content: center;*/
-/*  color: white;*/
-/*}*/
-/*.Bisaflor {*/
-/*  border: 1px solid #ccc; !* Umrandung der Box *!*/
-/*  padding: 10px; !* Abstand zwischen Inhalt und Umrandung *!*/
-/*  width: 200px; !* Breite der Box *!*/
-/*  float: right;*/
-/*  text-align: center; !* Zentrieren des Inhalts *!*/
-/*  margin-top: 50px;*/
-/*  margin-left: 50px;*/
-/*  margin-right: 50px;*/
-/*}*/
-/*.Chelast{*/
-/*  border: 1px solid #ccc; !* Umrandung der Box *!*/
-/*  padding: 10px; !* Abstand zwischen Inhalt und Umrandung *!*/
-/*  width: 200px; !* Breite der Box *!*/
-/*  float: right;*/
-/*  text-align: center; !* Zentrieren des Inhalts *!*/
-/*  margin-top: 50px;*/
-/*  margin-left: 50px;*/
-/*  margin-right: 50px;*/
-/*}*/
-/*.Silvarro{*/
-/*  border: 1px solid #ccc; !* Umrandung der Box *!*/
-/*  padding: 10px; !* Abstand zwischen Inhalt und Umrandung *!*/
-/*  width: 200px; !* Breite der Box *!*/
-/*  float: right;*/
-/*  text-align: center; !* Zentrieren des Inhalts *!*/
-/*  margin-top: 50px;*/
-/*  margin-left: 50px;*/
-/*  margin-right: 50px;*/
-/*}*/
-/*.Kokowei{*/
-/*  border: 1px solid #ccc; !* Umrandung der Box *!*/
-/*  padding: 10px; !* Abstand zwischen Inhalt und Umrandung *!*/
-/*  width: 200px; !* Breite der Box *!*/
-/*  float: right;*/
-/*  text-align: center; !* Zentrieren des Inhalts *!*/
-/*  margin-top: 50px;*/
-/*  margin-left: 50px;*/
-/*  margin-right: 50px;*/
-/*}*/
-.Pflanze-Beschreibung{
-  display: flex;
-  justify-content: center;
-  color: white;
-  opacity: 60%;
-  background-color: #555555;
-  margin-top: 15%;
 
+.Pflanze-Beschreibung {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
 }
+
+.Pflanze-Beschreibung h3 {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.Pflanze-Beschreibung p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
 footer a:hover {
   background-color: #555;
   color: #fff;
   transition: background-color0 .3s, color 0.3s;
+}
+
+footer{
+  color: white;
 }

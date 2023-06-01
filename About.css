@@ -65,8 +65,11 @@ table {
 
 footer a:hover {
   background-color: #555;
-  color: #fff;
+  color: #ffffff;
   transition: background-color0 .3s, color 0.3s;
+}
+footer{
+  color: #e9e9e9;
 }
 
 @media (max-width: 768px) {

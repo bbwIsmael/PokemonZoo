@@ -29,7 +29,7 @@ body {
   background-color: #118bee;
   color: #fff;
   flex-basis: 100%;
-  opacity: 70%;
+  opacity: 100%;
   padding: 2rem;
   text-align: center;
 }
@@ -45,7 +45,7 @@ body {
   color: #333;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
-  opacity: 70%;
+  opacity: 100%;
   line-height: 1.5;
   padding: 2rem;
   flex-basis: 100%;
@@ -81,5 +81,7 @@ footer a:hover {
 }
 footer{
   padding: 0px;
+  color: white;
+
 }
 
