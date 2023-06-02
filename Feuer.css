@@ -32,57 +32,10 @@ nav a:hover {
   margin-right: 300px;
   margin-top: 10px;
   background-color: red;
-  opacity: 30%;
   background-clip: padding-box;
   padding: 10px;
 }
-/*.main_Feuer{*/
-/*  flex-wrap: wrap;*/
-/*  flex-direction: row;*/
-/*  display: flex;*/
-/*  justify-content: center;*/
-/*  color: white;*/
-/*}*/
-/*.Glurak {*/
-/*  border: 1px solid #ccc; !* Umrandung der Box *!*/
-/*  padding: 10px; !* Abstand zwischen Inhalt und Umrandung *!*/
-/*  width: 200px; !* Breite der Box *!*/
-/*  float: right;*/
-/*  text-align: center; !* Zentrieren des Inhalts *!*/
-/*  margin-top: 50px;*/
-/*  margin-left: 50px;*/
-/*  margin-right: 50px;*/
-/*}*/
-/*.Entei{*/
-/*  border: 1px solid #ccc; !* Umrandung der Box *!*/
-/*  padding: 10px; !* Abstand zwischen Inhalt und Umrandung *!*/
-/*  width: 200px; !* Breite der Box *!*/
-/*  float: right;*/
-/*  text-align: center; !* Zentrieren des Inhalts *!*/
-/*  margin-top: 50px;*/
-/*  margin-left: 50px;*/
-/*  margin-right: 50px;*/
-/*}*/
-/*.Blaziken{*/
-/*  border: 1px solid #ccc; !* Umrandung der Box *!*/
-/*  padding: 10px; !* Abstand zwischen Inhalt und Umrandung *!*/
-/*  width: 200px; !* Breite der Box *!*/
-/*  float: right;*/
-/*  text-align: center; !* Zentrieren des Inhalts *!*/
-/*  margin-top: 50px;*/
-/*  margin-left: 50px;*/
-/*  margin-right: 50px;*/
-/*}*/
-/*.Houndom{*/
-/*  border: 1px solid #ccc; !* Umrandung der Box *!*/
-/*  padding: 10px; !* Abstand zwischen Inhalt und Umrandung *!*/
-/*  width: 200px; !* Breite der Box *!*/
-/*  float: right;*/
-/*  text-align: center; !* Zentrieren des Inhalts *!*/
-/*  margin-top: 50px;*/
-/*  margin-left: 50px;*/
-/*  margin-right: 50px;*/
-/*}*/
+
 .pokemon-container {
   display: flex;
   flex-wrap: wrap;
@@ -125,19 +78,19 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-.Feuer-Beschreibung {
+.informationen {
   background-color: #f2f2f2;
   padding: 20px;
   border: 1px solid #ccc;
 }
 
-.Feuer-Beschreibung h3 {
+.informationen h3 {
   font-size: 1.2em;
   line-height: 1.5;
   margin-bottom: 10px;
 }
 
-.Feuer-Beschreibung p {
+.informationen p {
   font-size: 1em;
   line-height: 1.5;
   margin-bottom: 20px;

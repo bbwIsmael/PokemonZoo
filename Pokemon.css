@@ -94,7 +94,9 @@ footer a:hover {
 }
 
 footer{
-  color: black;
+  color: white;
+  background-color: black;
+  max-width: 100%;
   margin-top: 50%;
 }
 

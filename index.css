@@ -80,8 +80,8 @@ footer a:hover {
   transition: background-color0 .3s, color 0.3s;
 }
 footer{
-  padding: 0px;
   color: white;
-
+  background-color: black;
+  max-width: 100%;
 }
 

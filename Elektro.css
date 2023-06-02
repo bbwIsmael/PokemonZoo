@@ -32,7 +32,6 @@ nav a:hover {
   margin-right: 300px;
   margin-top: 10px;
   background-color: yellow;
-  opacity: 30%;
   background-clip: padding-box;
   padding: 10px;
 }
@@ -77,19 +76,20 @@ nav a:hover {
   max-height: 150px;
   margin-bottom: 10px;
 }
-.Elektro-Beschreibung {
+.informationen {
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 0px;
   border: 1px solid #ccc;
+  width: 500px;
 }
 
-.Elektro-Beschreibung h3 {
+.informationen h3 {
   font-size: 1.2em;
   line-height: 1.5;
   margin-bottom: 10px;
 }
 
-.Elektro-Beschreibung p {
+.informationen p {
   font-size: 1em;
   line-height: 1.5;
   margin-bottom: 20px;
