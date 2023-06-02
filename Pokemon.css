@@ -1,4 +1,4 @@
-body{
+.pokemon{
   background-image: url(/images/pexels-erik-mclean-9661252.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,18 +87,6 @@ h2 {
   text-align: center;
 }
 
-footer a:hover {
-  background-color: #333333;
-  color: #ffffff;
-  transition: background-color0 .3s, color 0.3s;
-}
-
-footer{
-  color: white;
-  background-color: black;
-  max-width: 100%;
-  margin-top: 50%;
-}
 
 @media (max-width: 768px) {
   .main-container {

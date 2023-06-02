@@ -3,7 +3,7 @@ header{
   opacity: 0.8;
   }
 
-body {
+.home {
   display: flex;
   flex-direction: column;
   background-image: url(/images/pexels-vincent-ma-janssen-1310847.jpg);
